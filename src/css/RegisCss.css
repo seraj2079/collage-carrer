@@ -1,0 +1,113 @@
+#container {
+    background: linear-gradient(100deg, rgb(0,0,0,1) 50%, #f85c37 100%);
+    box-shadow: #ffa500;
+}
+
+#Head 
+{
+    background: linear-gradient(100deg, rgb(0,0,0,1) 50%, #f85c37 100%);     
+}
+
+#Head:hover
+{
+    color: #fff;   
+}
+
+#table
+{
+    color: #fff;
+    margin-top: 30px;
+    margin: auto;
+
+}
+
+.thead
+{
+    color: #fff;
+    
+}
+
+.tdata
+{
+    color: #fff;
+}
+
+@media screen and (max-width:1024px) {
+
+
+    #table {
+        text-align: center;
+    }
+
+    .thead {
+        display: none;
+    }
+
+    .Regis {
+        display: block;
+        text-align: center;
+        margin: 15px;
+    }
+
+    .Regis:first-child {
+        background-color: #333;
+        color: #fff;
+        justify-content: center;
+
+    }
+
+    .Regis:nth-child(1)::before {
+        content: "No : ";
+        color: #fff;        
+    }
+
+    .Regis:nth-child(2)::before {
+        content: " Id : ";
+        color: #fff;
+    }
+
+    .Regis:nth-child(3)::before {
+        content: " Mobile Number : ";
+        color: #fff;
+    }
+
+
+    .Regis:nth-child(4)::before {
+        content: "College Name: ";
+        color: #fff;
+    }
+
+
+    .Regis:nth-child(5)::before {
+        content: "College Type : ";
+        color: #fff;
+    }
+
+    .Regis:nth-child(6)::before {
+        content: "State Name : ";
+        color: #fff;
+    }
+   
+    .Regis:nth-child(7)::before {
+        content: "City Name :";
+        color: #fff;
+    }
+    .Regis:nth-child(8)::before {
+        content: "Area Name :";
+        color: #fff;
+    }
+
+    .Regis:nth-child(9)::before {
+        content: "College Address :";
+        color: #fff;
+    }
+
+    .Regis:nth-child(10)::before {
+        content: "Pin Code :";
+        color: #fff;
+    }
+
+   
+
+    
+}

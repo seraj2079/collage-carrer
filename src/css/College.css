@@ -1,0 +1,81 @@
+#container {
+    background: linear-gradient(100deg, rgb(0,0,0,1) 50%, #f85c37 100%);
+    box-shadow: #ffa500;
+}
+
+#Head 
+{
+    background: linear-gradient(100deg, rgb(0,0,0,1) 50%, #f85c37 100%);     
+}
+
+#Head:hover
+{
+    color: #fff;   
+}
+
+#table
+{
+    color: #fff;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.thead
+{
+    color: #fff;
+    margin: auto;
+}
+
+.tdata
+{
+    color: #fff;
+}
+
+@media screen and (max-width:1024px) {
+
+
+    #table {
+        text-align: center;
+    }
+
+    .thead {
+        display: none;
+    }
+
+    .college {
+        display: block;
+        text-align: center;
+        margin: 15px;
+    }
+
+    .college:first-child {
+        background-color: #333;
+        color: #fff;
+        justify-content: center;
+
+    }
+
+    .college:nth-child(1)::before {
+        content: "No : ";
+        color: #fff;        
+    }
+
+    .college:nth-child(2)::before {
+        content: "College type Id : ";
+        color: #fff;
+    }
+
+    .college:nth-child(3)::before {
+        content: " College type Name : ";
+        color: #fff;
+    }
+
+
+    .college:nth-child(4)::before {
+        content: "Action : ";
+        color: #fff;
+    }
+
+
+   
+}

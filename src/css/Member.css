@@ -1,0 +1,97 @@
+#container {
+    background: linear-gradient(100deg, rgb(0,0,0,1) 50%, #f85c37 100%);
+    box-shadow: #ffa500;
+}
+
+#Head 
+{
+    background: linear-gradient(100deg, rgb(0,0,0,1) 50%, #f85c37 100%);     
+}
+
+#Head:hover
+{
+    color: #fff;   
+}
+
+#table
+{
+    color: #fff;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.thead
+{
+    color: #fff;
+}
+
+.member
+{
+    color: #fff;
+}
+
+@media screen and (max-width:1024px) {
+
+
+    #table {
+        text-align: center;
+    }
+
+    .thead {
+        display: none;
+    }
+
+    .member {
+        display: block;
+        text-align: center;
+        margin: 15px;
+    }
+
+    .member:first-child {
+        background-color: #333;
+        color: #fff;
+        justify-content: center;
+
+    }
+
+    .member:nth-child(1)::before {
+        content: "No : ";
+        color: #fff;        
+    }
+
+    .member:nth-child(2)::before {
+        content: "Member Id : ";
+        color: #fff;
+    }
+
+    .member:nth-child(3)::before {
+        content: " Name : ";
+        color: #fff;
+    }
+
+
+    .member:nth-child(4)::before {
+        content: "Father Name : ";
+        color: #fff;
+    }
+
+
+    .member:nth-child(5)::before {
+        content: "Number : ";
+        color: #fff;
+    }
+
+    .member:nth-child(6)::before {
+        content: "Address : ";
+        color: #fff;
+    }
+   
+    .member:nth-child(7)::before {
+        content: "Image :";
+        color: #fff;
+    }
+    .member:nth-child(8)::before {
+        content: "Action :";
+        color: #fff;
+    }
+}

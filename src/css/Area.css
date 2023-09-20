@@ -1,0 +1,97 @@
+#container {
+    background: linear-gradient(100deg, rgb(0,0,0,1) 50%, #f85c37 100%);
+    box-shadow: #ffa500;
+}
+
+#Head 
+{
+    background: linear-gradient(100deg, rgb(0,0,0,1) 50%, #f85c37 100%);     
+}
+
+#Head:hover
+{
+    color: #fff;   
+}
+
+#table
+{
+    color: #fff;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.thead
+{
+    color: #fff;
+}
+
+.area
+{
+    color: #fff;
+}
+
+@media screen and (max-width:1024px) {
+
+
+    #table {
+        text-align: center;
+    }
+
+    .thead {
+        display: none;
+    }
+
+    .area {
+        display: block;
+        text-align: center;
+        margin: 15px;
+    }
+
+    .area:first-child {
+        background-color: #333;
+        color: #fff;
+        justify-content: center;
+
+    }
+
+    .area:nth-child(1)::before {
+        content: "No : ";
+        color: #fff;        
+    }
+
+    .area:nth-child(2)::before {
+        content: "State id : ";
+        color: #fff;
+    }
+
+    .area:nth-child(3)::before {
+        content: " State  Name : ";
+        color: #fff;
+    }
+
+
+    .area:nth-child(4)::before {
+        content: "City Id : ";
+        color: #fff;
+    }
+
+
+    .area:nth-child(5)::before {
+        content: "City Name : ";
+        color: #fff;
+    }
+
+    .area:nth-child(6)::before {
+        content: "Area Id : ";
+        color: #fff;
+    }
+   
+    .area:nth-child(7)::before {
+        content: "Area Name :";
+        color: #fff;
+    }
+    .area:nth-child(8)::before {
+        content: "Action :";
+        color: #fff;
+    }
+}
